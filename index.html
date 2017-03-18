@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Note list</title>
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body >
+
+  <header class="page-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>NoteList</h1>
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- Note form -->
+          <div class="note-form">
+            <form action="submit" id="note_form">
+              <label for="item_name">Title: </label>
+              <br>
+              <input type="text" placeholder="Your note title..." class="item_name" id="item_name" autofocus>
+              <br>
+              <label for="item_text">Your thoughts: </label>
+              <br>
+              <textarea name="text" rows="10" cols="30" class="item_text" id="item_text"
+                placeholder="Enter your thougthts...">  
+              </textarea>
+              <br>
+              <input value="Add Item" type="submit" id="btn_add" class='btn btn-primary btn_add' text="Add">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="list" id="list">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
