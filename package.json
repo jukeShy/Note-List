@@ -1,0 +1,22 @@
+{
+  "name": "notelist",
+  "version": "1.0.0",
+  "description": "Simple JavaScript project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukeShy/Note-List.git"
+  },
+  "author": "Andrew Shy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jukeShy/Note-List/issues"
+  },
+  "homepage": "https://github.com/jukeShy/Note-List#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

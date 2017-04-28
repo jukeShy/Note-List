@@ -7,12 +7,16 @@
   <title>Note list</title>
 
   <!-- STYLES -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- SCRIPTS -->
-  <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
 
 </head>
@@ -42,7 +46,7 @@
               <label for="item_text">Your thoughts: </label>
               <br>
               <textarea name="text" rows="10" cols="30" class="item_text" id="item_text"
-                placeholder="Enter your thougthts...">  
+                placeholder="Enter your thougthts...">
               </textarea>
               <br>
               <input value="Add Item" type="submit" id="btn_add" class='btn btn-primary btn_add' text="Add">
@@ -50,9 +54,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="list" id="list">
-
-          </div>
+          <div class="list" id="list"></div>
         </div>
       </div>
     </div>
